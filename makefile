@@ -1,4 +1,4 @@
 create :
-	MarkdownParse.java < "javac MarkdownParse.java"
+	MarkdownParse.java < input.txt
 test :
-	MarkdownPArse.java < "java MarkdownParse "test-file.md""
+	MarkdownPArse.java < input2.txt
