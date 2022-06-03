@@ -1,7 +1,7 @@
 import static org.junit.Assert.*;
 import org.junit.*;
 import java.io.IOException;
-import java.nio.file.Files;
+/*import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 public class MarkdownParseTest {
@@ -15,4 +15,4 @@ public class MarkdownParseTest {
     public void test() throws IOException{
         assertEquals(output , MarkdownParse.getLinks(content));
     }
-}
+}*/
