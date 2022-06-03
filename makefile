@@ -1,3 +1,5 @@
+CLASSPATH = lib/*:.
+
 test: recompile recompile2 run
 
 recompile : MarkdownParseTest.java
@@ -9,3 +11,6 @@ recompile2: MarkdownParse.java
 run :
 	java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
 	
+
+TryCommonMark.class: TryCommonMark.java
+	javac -g -cp $(CLASSPATH) TryCommonMark.java
